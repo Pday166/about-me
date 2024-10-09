@@ -5,46 +5,56 @@
 }
 
 body {
-
     display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: white;
+    height: 100vh;
 }
 
 h1 {
+    margin-bottom: 40px;
     font-size: 4rem;
 }
 
 #bkg {
+    color: white;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to top, honeydew, paleturquoise, black);
+    background: url(space.gif);
+    background-size: cover;
+}
+
+.about-me {
+    color: white;
 }
 
 #profile {
-    margin-bottom: 3em;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: white;
+    margin-bottom: 1em;
     height: 20em;
     width: 20em;
     border-radius: 20%;
-    border: 5px solid rgba(200, 150, 150, 0.8);
     filter: drop-shadow( 10px 10px 8px rgba(0, 0, 0, 0.5));
 }
 
-#heading {
-    margin-top: 3em;
-}
-
-#center {
-margin: 5em;
+.about-me-text-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin-top: 20px;
 }
 
 p {
-font-size: 2em;
-    color: black;
+    font-size: 1.5em;
+    color: white;
+    margin: 10px 0;
 }
